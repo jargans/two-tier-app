@@ -24,8 +24,7 @@ services:
 
   flask-app:
     container_name: twotierapp
-    build:
-      context: .
+    image: 30rishabhraj/twotierapp:latest
     ports:
       - "5000:5000"
     environment:
